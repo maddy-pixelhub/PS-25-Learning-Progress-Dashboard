@@ -1,0 +1,67 @@
+:root {
+  --text: #5d6675;
+  --text-h: #111827;
+  --muted: #788394;
+  --bg: #f3f7f8;
+  --surface: #ffffff;
+  --input-bg: #fbfdfe;
+  --border: #d9e2e7;
+  --soft: #edf7f4;
+  --accent: #0f8b8d;
+  --accent-strong: #0b5f73;
+  --accent-bg: rgba(15, 139, 141, 0.1);
+  --accent-border: rgba(15, 139, 141, 0.35);
+  --success: #146c43;
+  --success-bg: #e6f4ea;
+  --shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+
+  font: 16px/145% var(--sans);
+  letter-spacing: 0;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-h);
+  letter-spacing: 0;
+}
+
+h1 {
+  margin-bottom: 12px;
+  font-size: clamp(38px, 6vw, 64px);
+  line-height: 1;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.18;
+}
+
+p {
+  margin-bottom: 0;
+}

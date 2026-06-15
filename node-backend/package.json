@@ -1,0 +1,16 @@
+{
+  "name": "ps25-learning-node-backend",
+  "version": "1.0.0",
+  "description": "Node.js MongoDB service for PS-25 learning logs, activity history, embeddings, and semantic search.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}
